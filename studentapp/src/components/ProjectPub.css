@@ -1,37 +1,25 @@
-@media (max-width: 767px) { 
-    .heading{
-        text-align: center;
-    }
-    .maincantener{
-        padding: 0;
-        margin: 0;
-        max-width: 100%;
-        justify-content: center;
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        justify-content: center;
-        width: auto;
-        padding: 1rem;
-        font-size: 1.2rem;
-    }
-    .textrow::after{
-        width: 100%;
-    }
-
+.project-publication{
+    margin-left: 40%;
 }
-@media (max-width: 400px) { 
-    .heading{
-        text-align: center;
+
+@media (max-width: 768px) {
+    .maincantener-projectpub{
+        width: 70%;
+            margin-left: 40%;
+            margin-top: 3rem;
+            /* width: fit-content; */
+            position: relative;
+    
     }
-    .maincantener{
-        padding: 0;
-        margin: 0;
-        max-width: 100%;
-        justify-content: center;
-        text-align: center;
+    .primary-project-submit{
+        width: 50%;
     }
-    .textrow::after{
-        width: 100%;
+    
+}
+
+@media (max-width:435px) {
+    .maincantener-projectpub{
+            margin-left: 10%;
+    
     }
 }
